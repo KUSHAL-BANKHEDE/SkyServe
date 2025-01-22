@@ -1,5 +1,5 @@
-const User = require('./models/User'); // User schema
-const File = require('./models/File'); // File schema
+const User = require('../models/User'); // User schema
+const File = require('../models/File'); // File schema
 
 exports. register = async (req, res) => {
     const { username, password } = req.body;
